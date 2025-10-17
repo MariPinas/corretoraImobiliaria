@@ -40,7 +40,7 @@ public class ImobiliariaService {
             System.out.printf("[%d] %s - %s - %s - R$ %.2f\n", i, imovelAtual.getEndereco(), imovelAtual.getNumero(), imovelAtual.getStatusDescricao(), imovelAtual.getValorBaseAluguel());
         }
     }
-// .doubleValue()
+
     public void listarTodosAlugados(){
         System.out.println("\n--- Imóveis Alugados ---");
         boolean encontrou = false;
@@ -97,4 +97,5 @@ public class ImobiliariaService {
     }
 
 }
+
 
